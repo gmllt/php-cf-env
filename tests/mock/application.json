@@ -1,0 +1,39 @@
+{
+  "application_id": "ffd52e97-b161-49bf-846a-a88ec21ac824",
+  "application_name": "my-app",
+  "application_uris": [
+    "my-app.domain.fr",
+    "my-app.domain.ext"
+  ],
+  "application_version": "b4410c96-9509-4319-b2ed-985a4ae756f1",
+  "cf_api": "https://api.cf.mts.hbx.geo.francetelecom.fr",
+  "host": "0.0.0.0",
+  "instance_id": "ecb609d9-bacd-4dea-9c9b-d17a",
+  "instance_index": 0,
+  "limits": {
+    "disk": 100,
+    "fds": 200,
+    "mem": "256M"
+  },
+  "name": "my-app",
+  "organization_id": "3d2ad634-b171-44a4-9999-edcf5acfdf42",
+  "organization_name": "my-org",
+  "port": 8080,
+  "process_id": "948180a1-39b2-4e10-af6c-893c4bc7886c",
+  "process_type": "web",
+  "space_id": "fc0462cc-2020-4f38-8d11-55f4eed56187",
+  "space_name": "my-space",
+  "start": "1970-01-01 00:00:00",
+  "startAt": "1970-01-01T00:00:00",
+  "started_at": "1970-01-01T00:00:00",
+  "started_at_timestamp": 0,
+  "state_timestamp": 0,
+  "uris": [
+    "my-app.domain.fr",
+    "my-app.domain.ext"
+  ],
+  "users": [
+    "vcap"
+  ],
+  "version": "b4410c96-9509-4319-b2ed-985a4ae756f1"
+}

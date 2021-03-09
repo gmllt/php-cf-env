@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="./vendor/autoload.php" stderr="true" colors="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">./src/Service</directory>
+    </include>
+    <report>
+      <clover outputFile="./_build/phpunit/coverage.xml"/>
+    </report>
+  </coverage>
+  <php>
+    <env name="APP_SECRET" value="2277104177b78a52e1b7d8939b6e9b68"/>
+  </php>
+  <testsuites>
+    <testsuite name="Library">
+      <directory suffix="Test.php">./tests</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <junit outputFile="./_build/phpunit/logfile.xml"/>
+  </logging>
+</phpunit>

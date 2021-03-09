@@ -1,0 +1,22 @@
+{
+  "label": "redis",
+  "provider": null,
+  "plan": "free",
+  "name": "my-redis",
+  "instance_name": "my-redis",
+  "binding_name": "binding-name-redis",
+  "credentials": {
+    "host": "localhost",
+    "hostname": "localhost",
+    "port": 6379,
+    "auth": null,
+    "uri": "redis://localhost:6379"
+  },
+  "tags": [
+    "redis",
+    "cache"
+  ],
+  "syslog_drain_url": null,
+  "volume_mounts": [
+  ]
+}

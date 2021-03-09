@@ -1,0 +1,29 @@
+{
+  "name": "gmllt/php-cf-env",
+  "description": "PHP CloudFoundry Environment",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "gmiraillet",
+      "email": "gilles.miraillet@orange.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gmllt\\CloudFoundry\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gmllt\\CloudFoundry\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}

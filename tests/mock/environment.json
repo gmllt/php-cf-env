@@ -1,0 +1,23 @@
+{
+  "CF_INSTANCE_ADDR": "100.17.0.1:6310",
+  "CF_INSTANCE_GUID": "c29d55e8-d8ae-41f8-b307-21e9cbb6a9bc",
+  "CF_INSTANCE_INDEX": 0,
+  "CF_INSTANCE_INTERNAL_IP": "127.0.0.1",
+  "CF_INSTANCE_IP": "100.17.0.1",
+  "CF_INSTANCE_PORT": 6310,
+  "CF_INSTANCE_PORTS": "[{\"external\":61045,\"internal\":8080},{\"external\":61046,\"internal\":2222}]",
+  "CF_STACK": "cflinuxfs3",
+  "DATABASE_URL": "postgres://exampleuser:examplepass@babar.elephantsql.com:5432/exampledb",
+  "HOME": "/home/vcap/app",
+  "INSTANCE_GUID": "c29d55e8-d8ae-41f8-b307-21e9cbb6a9bc",
+  "INSTANCE_INDEX": 0,
+  "LANG": "en_US.UTF-8",
+  "MEMORY_LIMIT": "256M",
+  "PATH": "/home/vcap/app",
+  "PORT": "8080",
+  "PWD": "/home/vcap/app",
+  "TMPDIR": "/tmp",
+  "USER": "vcap",
+  "VCAP_APP_HOST": "host.fr",
+  "VCAP_APP_PORT": "80"
+}

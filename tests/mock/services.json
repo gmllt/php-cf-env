@@ -1,0 +1,51 @@
+{
+  "elephantsql": [
+    {
+      "provider": null,
+      "plan": "free",
+      "name": "elephantsql-c6c60",
+      "label": "elephantsql",
+      "credentials": {
+        "uri": "postgres://exampleuser:examplepass@babar.elephantsql.com:5432/exampledb"
+      }
+    }
+  ],
+  "logs": [
+    {
+      "label": "logs",
+      "provider": null,
+      "plan": "free",
+      "name": "my-logs",
+      "tags": [
+        "syslog",
+        "logs"
+      ],
+      "instance_name": "my-logs",
+      "binding_name": null,
+      "credentials": null,
+      "syslog_drain_url": "https://drain.url/",
+      "volume_mounts": [
+      ]
+    }
+  ],
+  "redis": [
+    {
+      "label": "redis",
+      "provider": null,
+      "plan": "free",
+      "name": "my-redis",
+      "tags": [
+        "redis",
+        "cache"
+      ],
+      "instance_name": "my-redis",
+      "binding_name": null,
+      "credentials": {
+        "host": "localhost",
+        "port": 6379,
+        "auth": null,
+        "uri": "redis://localhost:6379"
+      }
+    }
+  ]
+}
